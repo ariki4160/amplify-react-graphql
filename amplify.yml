@@ -11,6 +11,7 @@ frontend:
       commands:
         - nvm install --lts --latest-npm
         - nvm use stable
+        - yarn install
         - npm ci
     # IMPORTANT - Please verify your build commands
     build:
