@@ -13,7 +13,7 @@ frontend:
         - nvm use 16.13.2
         - npm install @aws-amplify/cli --force
         - npm install
-        - npm ci
+        # - npm ci
     # IMPORTANT - Please verify your build commands
     build:
       commands:
@@ -25,4 +25,5 @@ frontend:
       - '**/*'
   cache:
     paths: []
+      - node_modules/**/*
 
