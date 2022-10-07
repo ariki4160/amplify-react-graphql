@@ -9,10 +9,6 @@ frontend:
   phases:
     preBuild:
       commands:
-        # - nvm install 16.13.2
-        # - nvm use 16.13.2
-        # - npm install @aws-amplify/cli --force
-        # - npm install
         - npm ci
     # IMPORTANT - Please verify your build commands
     build:
